@@ -29,6 +29,7 @@ export default function App() {
         #testimonials,
         #products,
         #newsletter,
+        #location,
         .footer
     `,
       {

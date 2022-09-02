@@ -9,11 +9,11 @@ import { GrLinkedinOption } from "react-icons/gr";
 export default function Footer() {
   return (
     <div className="footer">
-      <Section>
+      <Section id = "location">
         <div className="brand container">
           <img style={{width:"10rem", height:"5.5rem"}} src={logo} alt="" /> 
           <p>
-            Check out our Social Media!
+            Check out our Social Media
           </p>
           <ul>
             <li>

@@ -9,6 +9,7 @@ export default function Newsletter() {
         <h1>
 
         <span> Menu <img style={{width: "5.5vh"}} src={phoIcon} alt="Icon" /> </span>  
+        <p> Virtual menu coming soon! </p>
           
         </h1>
     {/*
@@ -28,7 +29,7 @@ export default function Newsletter() {
 }
 
 const Section = styled.section`
-  border: 0.2rem solid black;
+  {/* border: 0.2rem solid black; */}
   padding: 4rem;
   display: flex;
   flex-direction: column;

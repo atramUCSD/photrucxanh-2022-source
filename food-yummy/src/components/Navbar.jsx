@@ -31,10 +31,13 @@ export default function Navbar() {
               Home
             </a>
           </li>
+
+          {/*
           <li>
             <a href="#services">Our Services</a>
           </li>
-          
+          */}
+
           {/* 
           <li>
             <a href="#portfolio">Portfolio</a>
@@ -50,6 +53,9 @@ export default function Navbar() {
           <li>
             <a href="#newsletter">Menu</a>
           </li>
+          <li>
+            <a href="#location">Location</a>
+          </li>
         </ul>
       </Nav>
       <ResponsiveNav state={navbarState} className={navbarState ? "show" : ""}>
@@ -58,16 +64,17 @@ export default function Navbar() {
             <a
               href="#home"
               className="active"
-              onClick={() => setNavbarState(false)}
-            >
+              onClick={() => setNavbarState(false)}>
               Home
             </a>
           </li>
+          {/* 
           <li>
             <a href="#services" onClick={() => setNavbarState(false)}>
               Our Services
             </a>
           </li>
+          */}
           {/* 
           <li>
             <a href="#portfolio" onClick={() => setNavbarState(false)}>
@@ -88,6 +95,11 @@ export default function Navbar() {
           <li>
             <a href="#newsletter" onClick={() => setNavbarState(false)}>
               Menu
+            </a>
+          </li> 
+          <li>
+            <a href="#location" onClick={() => setNavbarState(false)}>
+              Location
             </a>
           </li>
         </ul>

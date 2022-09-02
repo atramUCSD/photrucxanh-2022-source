@@ -16,54 +16,62 @@ export default function Products() {
       image: product1,
       name: "A-4 GỎI CUỐN TÔM",
       price: "TBD",
-      link: "https://www.yelp.com/biz/pho-truc-xanh-escondido?q=spring+rolls"
+      link: "https://www.yelp.com/biz/pho-truc-xanh-escondido?q=spring+rolls",
+      description: "Looking for an appetizer to come out quick or you simply want a nutrionally balanced snack? Get some spring rolls!"
     },
     {
       image: product2,
       name: "HONEY CHICKEN",
       price: "TBD",
-      link: "https://www.yelp.com/biz/pho-truc-xanh-escondido?q=honey+chicken"
+      link: "https://www.yelp.com/biz/pho-truc-xanh-escondido?q=honey+chicken",
+      description: "Sweet, savory, and crispy. Those words describe our crowd favorite Honey Chicken plate!"
     },
     {
       image: product3,
       name: "S-46 BÚN BÒ HUẾ TRÚC XANH ",
       price: "TBD",
-      link: "https://www.yelp.com/biz/pho-truc-xanh-escondido?q=bun+bo+hue"
+      link: "https://www.yelp.com/biz/pho-truc-xanh-escondido?q=bun+bo+hue",
+      description: "A traditional Vietnamese noodle soup packed with more spice and heartiness than your standard Pho bowl."
     },
 
     {
       image: product4,
       name: "C-44 CƠM CHIÊN TRÚC XANH",
       price: "TBD",
-      link: "https://www.yelp.com/biz/pho-truc-xanh-escondido?q=fried+rice"
+      link: "https://www.yelp.com/biz/pho-truc-xanh-escondido?q=fried+rice",
+      description: "The comforting and filling Fried Rice, how can you go wrong with this classic? An Eggs, Veggies, and Protein fusion! "
     },
 
     {
       image: product5,
       name: "P-12 PHỞ ĐẶC BIỆT TRÚC XANH",
       price: "TBD",
-      link: "https://www.yelp.com/biz/pho-truc-xanh-escondido?q=pho"
+      link: "https://www.yelp.com/biz/pho-truc-xanh-escondido?q=pho",
+      description: "The crown jewel of Vietnamese cuisine. A great dish to get if it's your first time here... actually it's always a fantastic dish to get!"
     },
     
     {
       image: product6,
       name: "LO MEIN NOODLES",
       price: "TBD",
-      link: "https://www.yelp.com/biz/pho-truc-xanh-escondido?q=lo+mein"
+      link: "https://www.yelp.com/biz/pho-truc-xanh-escondido?q=lo+mein",
+      description: "Looking for tons of flavor in each bite? Our Lo Mein noodles are a great option if you just want a little bit of everything for your taste buds!"
     },
 
     {
       image: product7,
       name: "A-14 MỰC RANG MUỐI",
       price: "TBD",
-      link: "https://www.yelp.com/biz/pho-truc-xanh-escondido?q=calamari"
+      link: "https://www.yelp.com/biz/pho-truc-xanh-escondido?q=calamari",
+      description: "Our Salt and Pepper Calamari is a great dish. With its crispy exterior and satisfyingly chewy interior, find out why so many of our customers love this dish! "
     },
 
     {
       image: product8,
       name: "D-11 TRÀ THÁI TRÂN CHÂU",
       price: "TBD",
-      link: "https://www.yelp.com/biz/pho-truc-xanh-escondido?q=thai+tea"
+      link: "https://www.yelp.com/biz/pho-truc-xanh-escondido?q=thai+tea",
+      description: "Looking for something sweet with your savory? Our homemade Thai Tea is great to have at the beginning, middle, or end of your meal! "
     },
 
   ];
@@ -84,7 +92,7 @@ export default function Products() {
               </div>
               <h2 style={{textAlign:"center"}}>{product.name}</h2>
               <h3>{product.price}</h3>
-              <p>He Printing and Typesetting the industry. Lorem Ipsum has</p>
+              <p>{product.description}</p>
               <button onClick={() => window.open(product.link,"_blank")} type="button"> View Yelp Reviews</button>
             </div>
           );
