@@ -1,0 +1,34 @@
+{
+  "files": {
+    "main.css": "/photrucxanh-2022-website/static/css/main.fc791b5e.css",
+    "main.js": "/photrucxanh-2022-website/static/js/main.cf3b2a08.js",
+    "static/media/OrangeChicken-Slide-1.svg": "/photrucxanh-2022-website/static/media/OrangeChicken-Slide-1.b5b2c364c0d7b9398876df69cc2461fc.svg",
+    "static/media/lomein-Slide-1.svg": "/photrucxanh-2022-website/static/media/lomein-Slide-1.8cb096ca245bee578ca550c5d56edd03.svg",
+    "static/media/Pho-Slide-1.svg": "/photrucxanh-2022-website/static/media/Pho-Slide-1.0450a398476060c3885cd7338611968f.svg",
+    "static/media/PTX_Menu.png": "/photrucxanh-2022-website/static/media/PTX_Menu.fca4cf408784e2b981f5.png",
+    "static/media/Dumplings-Slide-1.svg": "/photrucxanh-2022-website/static/media/Dumplings-Slide-1.0bb02e2c8a2dc344a54f94604041212f.svg",
+    "static/media/PTX_Menu2.png": "/photrucxanh-2022-website/static/media/PTX_Menu2.9f7453c91490a97ca4b2.png",
+    "static/media/banner.JPG": "/photrucxanh-2022-website/static/media/banner.58e16959c41d26c47319.JPG",
+    "static/media/Cheese-Slide-1.svg": "/photrucxanh-2022-website/static/media/Cheese-Slide-1.3ab0a9a26297f2a459d641f0f1e84d08.svg",
+    "static/media/product1.jpg": "/photrucxanh-2022-website/static/media/product1.47da5b77cf0830753d82.jpg",
+    "static/media/product4.jpg": "/photrucxanh-2022-website/static/media/product4.68d3261ad9931eb4e1f0.jpg",
+    "static/media/product5.JPG": "/photrucxanh-2022-website/static/media/product5.409e5737d991b2d6f701.JPG",
+    "static/media/product8.jpg": "/photrucxanh-2022-website/static/media/product8.8b0077f6edc3f26c5b3e.jpg",
+    "static/media/product6.JPG": "/photrucxanh-2022-website/static/media/product6.697cc4543c9e3c5b7e32.JPG",
+    "static/media/product7.jpg": "/photrucxanh-2022-website/static/media/product7.ff8debbc4176e68bff42.jpg",
+    "static/media/product2.jpg": "/photrucxanh-2022-website/static/media/product2.a0a0cb8eb6cba714614a.jpg",
+    "static/media/product3.jpg": "/photrucxanh-2022-website/static/media/product3.de01d17526249e58c361.jpg",
+    "static/media/Avatar1.png": "/photrucxanh-2022-website/static/media/Avatar1.31900f62c7803dd94e6e.png",
+    "static/media/Avatar3.png": "/photrucxanh-2022-website/static/media/Avatar3.e3f7bdc0a474c31da45b.png",
+    "static/media/Avatar2.png": "/photrucxanh-2022-website/static/media/Avatar2.019a81aa088e365f4b8e.png",
+    "static/media/FoodYummy.png": "/photrucxanh-2022-website/static/media/FoodYummy.1338337828bbf0b627fc.png",
+    "static/media/pho.png": "/photrucxanh-2022-website/static/media/pho.ce492a21457577c1296b.png",
+    "index.html": "/photrucxanh-2022-website/index.html",
+    "main.fc791b5e.css.map": "/photrucxanh-2022-website/static/css/main.fc791b5e.css.map",
+    "main.cf3b2a08.js.map": "/photrucxanh-2022-website/static/js/main.cf3b2a08.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.fc791b5e.css",
+    "static/js/main.cf3b2a08.js"
+  ]
+}
